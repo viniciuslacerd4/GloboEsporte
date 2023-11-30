@@ -1,0 +1,256 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: opensans,helvetica,arial,sans-serif;
+    font-size: 16px;
+}
+
+.nav_inicio{
+    display: flex;
+    justify-content: space-between;
+    flex-direction: row;
+    background-color: #fefefe;
+    padding: 8px 0px;
+    text-align: left;
+    align-items: center;
+    width: auto;
+    margin: 0px 15%;
+}
+
+.nav_links a{
+    font-size: 16px;
+    font-weight: bold;
+    letter-spacing: -0.02em;
+    margin-left: 1px;
+    margin-right: 1px;
+    padding: 9px 7px 12px;
+    text-decoration: none;
+}
+
+.globo{
+ color: rgb(71, 126, 199);
+}
+
+.g1{
+    color: red;
+}
+
+.ge{
+    color: rgb(0, 190, 0);
+}
+
+.gshow{
+    color: orange;
+}
+
+.globoplay{
+    color: red;
+}
+
+.nav_login{
+    font-size: 12px;
+    text-decoration: none;
+}
+
+.assine{
+    padding: 15px 12px 13px 4px;
+    color: gray;
+    font-size: 12PX;
+    text-decoration: none;
+    height: 14px;
+}
+
+.entrar{
+    padding: 3px 3px 2px;
+    background-color: #f3f3f3;
+    background-image: -moz-linear-gradient(top,rgba(0,0,0,0) 0,rgba(0,0,0,0) 50%,rgba(0,0,0,0.07) 100%);
+    border-radius: 2px;
+    font-size: 12PX;
+    margin: 0;
+    color: #666;
+    border: 0;
+}
+
+.cabeca{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 65px;
+    padding: 0px 15%;
+    text-align: center;
+}
+
+.cabeca_esquerda{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.menu_esquerda{
+    display: flex;
+    background: none;
+    border: none;
+    color: white;
+    margin: 0 12PX 5PX 0;
+    justify-content: center;
+    align-items: center;
+}
+
+.menu_esquerda a{
+    font-size: 14px;
+    letter-spacing: -0.015;
+    font-weight: bold;
+}
+
+.menu{
+    width: 20px;
+    margin: 0 4px 0 0;
+}
+
+.ge_logo{
+    width: 34px;
+}
+
+.vasco{
+    color: white;
+    text-decoration: none;
+    font-size: 32px;
+    font-weight: 300;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    letter-spacing: -0.04em;
+}
+
+.busca{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+}
+
+.texto_busca{
+    background-color: black;
+    border: none;
+    color: #fff;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    font-weight: bold;
+    width: 60px;
+}
+
+.lupa{
+    width: 20px;
+}
+
+.principal{
+    display: grid;
+    justify-content: space-around;
+    margin: 0 25%;
+}
+
+.principal_inicio{
+    margin: 50px 0 ; 
+}
+
+.inicio_titulo h1{
+    font-size: 56px;
+    letter-spacing: -0.055em;
+    font-weight: bold;
+    margin: 20px 0;
+}
+
+.inicio_titulo h2{
+    font-size: 20px;
+    letter-spacing: -0.03em;
+    color: #555;
+    font-weight: 100;
+}
+
+.inicio_moral{
+    margin:40px 0;
+    color: #555;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.social{
+    width: 20px;
+    height: 20px;
+    margin: 0 10px;
+}
+
+.noticia{
+    display: flex;
+    flex-direction: column;
+    gap: 50px 0 ;
+    margin: 40px 16%;
+
+}
+
+.noticia p{
+    font-size: 125%;
+}
+
+.noticia h2{
+    font-size: 40px;
+    font-weight: 800;
+    
+}
+
+.noticia a{
+    font-size: 125%;
+    color: black;
+    text-decoration: none;
+    texe
+}
+
+.noticia figure figcaption{
+    text-align: start;
+}
+
+
+
+
+
+
+
+
+.fim{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    padding: 30px 0;
+    gap: 25px;
+    font-size: 12px;
+    font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+
+.acima{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 0 15%;
+    font-size: 16px;
+}
+
+.logo_agenda{
+    display: flex;
+    gap: 25px;
+    align-items: center;
+}
+
+.abaixo{
+    display: flex;
+    justify-content: space-between;
+    margin: 0 15%;
+}
+
+.links{
+    color: white;
+    text-decoration: none;
+}
